@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 隐私或安全问题（私密）
+    url: https://github.com/SW1109/quizmate-public-docs/security/advisories/new
+    about: 请勿在公开问题中填写卡密、密钥、账号或个人资料。
+  - name: 操作指南
+    url: https://sw1109.github.io/quizmate-public-docs/guide/
+    about: 先查看授权、连接和常见问题说明。

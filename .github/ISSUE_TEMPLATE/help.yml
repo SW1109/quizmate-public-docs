@@ -1,0 +1,29 @@
+name: 使用问题或建议
+description: 反馈插件、兼容或文档问题，请先去除敏感信息。
+title: "[反馈] "
+body:
+  - type: markdown
+    attributes:
+      value: 提交内容会公开。请勿填写完整卡密、API Key、令牌、密码、Cookie 或个人资料；隐私和安全问题请使用私密报告入口。
+  - type: input
+    id: version
+    attributes:
+      label: 插件版本
+      placeholder: 请输入插件版本，例如 0.7.6
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 浏览器和系统
+      placeholder: 请输入浏览器及系统版本
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 问题或建议
+      description: 请提供复现步骤、实际结果和期望结果；截图须脱敏。
+      placeholder: 请输入问题或建议
+    validations:
+      required: true
