@@ -3,6 +3,8 @@ title: QuizMate · 智答伴侣
 permalink: /
 ---
 
+![QuizMate 图标](assets/quizmate-128.png)
+
 QuizMate 是面向允许使用辅助工具的学习与练习场景的 Chrome / Edge 浏览器扩展，提供题目识别、参考答案预览、受控填写和网课学习辅助。最终提交由用户完成。
 
 当前公开说明对应插件 **0.7.6**，更新于 **2026 年 11 月 6 日**。

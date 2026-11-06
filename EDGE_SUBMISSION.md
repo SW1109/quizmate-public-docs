@@ -20,6 +20,7 @@ permalink: /edge-submission/
 | 操作指南 | <https://sw1109.github.io/quizmate-public-docs/guide/> |
 | 版本说明 | <https://sw1109.github.io/quizmate-public-docs/changelog/> |
 | 公开反馈 | <https://github.com/SW1109/quizmate-public-docs/issues> |
+| 产品图标（128×128 PNG） | [QuizMate 图标](assets/quizmate-128.png) |
 
 官网和支持地址是可提供的商店信息；本扩展会处理题目及授权、网络等数据，应提供与实际行为一致的公开隐私政策，并按控制台当前问题如实披露。使用条款、权限和指南作为补充公开资料，不把它们冒充所有扩展都必须填写的独立字段。
 
