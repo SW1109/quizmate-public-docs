@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # QuizMate 隐私政策
 
-适用版本：0.8.0。更新日期及本次修订生效日期：2026 年 11 月 7 日。
+适用版本：0.8.1。更新日期及本次修订生效日期：2026 年 11 月 10 日。
 
 本政策适用于 QuizMate · 智答伴侣浏览器扩展、可选本地 CLI 桥，以及用户主动使用的 QuizMate 授权与官方服务。维护者为 GitHub 账号 [SW1109](https://github.com/SW1109)。自行配置的模型服务、CLI 工具、课程网站及其他发卡方也可能依据各自政策处理信息。
 
@@ -19,11 +19,11 @@ permalink: /privacy/
 
 | 模式 | 数据接收方与用途 |
 | --- | --- |
-| 官方-题库+ AI Nexly | 题干、选项、必要的代码或报错、所选模型、请求编号、插件版本和页面来源域名发送到所兑换卡对应的授权后台。后台先在套餐允许的已审核题库中匹配；未可靠命中或答案存在冲突时，再将求解内容发送至管理员配置的模型服务。默认模型服务为 Nexly。 |
+| 官方服务（题库＋AI） | 题干、选项、必要的代码或报错、所选模型、请求编号、插件版本和页面来源域名发送到所兑换卡对应的授权后台。后台先在套餐允许的已审核题库中匹配；未可靠命中或答案存在冲突时，再将求解内容发送至管理员配置的模型服务。 |
 | 自配 API | 求解内容从浏览器发送到用户保存的 API 地址。授权后台另行收到刷题时长核验请求，不接收该模式的题目或 API Key。 |
 | 本地 CLI | 求解内容交给本机安装的 CLI 工具；CLI 可能根据自身配置向模型服务联网。授权后台只核验刷题时长，不接收 CLI 凭据或该模式的题目。 |
 
-官方授权默认服务地址为 `https://xianyu.guangnian.xin`；用户可改为可信的兼容后台。Nexly 默认 API 地址为 `https://nexly.guangnian.xin/v1`。更换模式或后台会改变接收数据的服务方，请在保存前核对。
+官方授权默认服务地址为 `https://xianyu.guangnian.xin`；用户可改为可信的兼容后台。API 模式不预设服务地址，由用户自行填写。更换模式或后台会改变接收数据的服务方，请在保存前核对。
 
 ## 3. 处理的数据类型
 
@@ -51,7 +51,7 @@ permalink: /privacy/
 
 模型 API、CLI 提供方、课程网站、GitHub 和用户点击的外部网站各自处理其收到的数据。模型请求可能由相关服务继续转交下游模型提供方；所在区域、日志保留、是否用于训练及跨境处理，以相应提供方的政策和配置为准，本扩展不能替第三方承诺零留存或远程删除。
 
-本公开文档托管于 GitHub Pages；访问页面或提交 GitHub 反馈时，GitHub 会依据其[隐私声明](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)处理连接和账户信息。普通 Issues 中的内容会公开显示。若用户主动扫码赞助，支付由微信处理，扩展不获取微信支付交易详情；赞助不代替套餐购买。
+本公开文档托管于 GitHub Pages；访问页面或提交 GitHub 反馈时，GitHub 会依据其[隐私声明](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)处理连接和账户信息。普通 Issues 中的内容会公开显示。
 
 ## 6. 用户控制
 
@@ -61,7 +61,7 @@ permalink: /privacy/
 
 ## 7. 联系、访问与删除请求
 
-一般问题请访问[帮助与支持](SUPPORT.md)或[公开反馈入口](https://github.com/SW1109/quizmate-public-docs/issues)。隐私或安全问题可使用[私密报告入口](https://github.com/SW1109/quizmate-public-docs/security/advisories/new)，避免公开身份和授权信息。GitHub 反馈需要 GitHub 账号。
+一般问题请访问[帮助与支持](https://sw1109.github.io/quizmate-public-docs/support/)或[公开反馈入口](https://github.com/SW1109/quizmate-public-docs/issues)。隐私或安全问题可使用[私密报告入口](https://github.com/SW1109/quizmate-public-docs/security/advisories/new)，避免公开身份和授权信息。GitHub 反馈需要 GitHub 账号。
 
 涉及自行部署后台或另行购买的卡密时，应同时联系实际运营方或发卡方。核验请求时只提供必要的脱敏信息；不要发送 API Key、口令、完整卡密或会话令牌。无法访问私密报告时，可以先提交不含个人资料的联系请求，约定私密渠道后再核验。
 
@@ -69,4 +69,4 @@ permalink: /privacy/
 
 未成年人应在监护人指导与同意下使用，不应在题目或反馈中填写无关个人信息。扩展不针对未成年人投放广告。
 
-功能或数据处理发生实质变化时，会在本页面及扩展帮助中更新，必要时重新请求同意。更新历史见[版本记录](CHANGELOG.md)。
+功能或数据处理发生实质变化时，会在本页面及扩展帮助中更新，必要时重新请求同意。更新历史见[版本记录](https://sw1109.github.io/quizmate-public-docs/changelog/)。
