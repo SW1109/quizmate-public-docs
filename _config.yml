@@ -6,6 +6,7 @@ url: https://sw1109.github.io
 baseurl: /quizmate-public-docs
 theme: minima
 header_pages:
+  - EDGE_START.md
   - GUIDE.md
   - PRIVACY.md
   - SUPPORT.md

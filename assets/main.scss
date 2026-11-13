@@ -12,3 +12,22 @@
   max-width: 100%;
   overflow-x: auto;
 }
+
+// 图文手册保留阅读宽度，侧栏图不拉伸，表格在窄屏独立滚动。
+.wrapper { max-width: 1040px; }
+.post-content, .page-content { font-size: 16px; line-height: 1.85; }
+.post-content h2 { font-size: 25px; margin: 42px 0 18px; line-height: 1.5; letter-spacing: 0; }
+.post-content h3 { font-size: 19px; margin: 28px 0 14px; letter-spacing: 0; }
+.post-title { font-size: 32px; letter-spacing: 0; line-height: 1.4; }
+.post-content li { margin-block: 8px; }
+.post-content table { font-size: 14px; line-height: 1.75; }
+.post-content th, .post-content td { min-width: 125px; padding: 12px 14px; }
+.post-content .guide-figure { margin: 28px auto; max-width: 100%; }
+.post-content .guide-figure img { display: block; width: 100%; height: auto; border: 1px solid #dce2de; border-radius: 6px; }
+.post-content .guide-figure.sidebar { max-width: 360px; }
+.post-content figcaption { margin-top: 10px; font-size: 13px; line-height: 1.7; color: #606a65; }
+@media (max-width: 600px) {
+  .post-title { font-size: 26px; }
+  .post-content h2 { font-size: 22px; }
+  .post-content th, .post-content td { padding: 10px; }
+}

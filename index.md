@@ -1,38 +1,27 @@
 ---
-title: QuizMate · 智答伴侣
+layout: page
+title: QuizMate 使用帮助
 permalink: /
 ---
 
-![QuizMate 图标](assets/quizmate-128.png)
+第一次使用从 [Edge 安装到首次使用](EDGE_START.md) 开始；已有卡密时，可直接查看 [完整操作手册](GUIDE.md)。
 
-QuizMate 是面向允许使用辅助工具的学习与练习场景的 Chrome / Edge 浏览器扩展，提供题目识别、参考答案预览、受控填写和网课学习辅助。最终提交由用户完成。
+当前图文手册按 **0.9.0** 编写，更新于 **2026 年 11 月 13 日**。同日核对时，Edge 商店仍为 **0.8.1**，教程中提供了按钮名称对照。
 
-当前操作说明对应插件 **0.8.1**，更新于 **2026 年 11 月 10 日**。商店已发布版本以实际展示为准。
+[在 Microsoft Edge 商店查看 QuizMate](https://microsoftedge.microsoft.com/addons/detail/quizmate/nmkgnejillemkmplbkcklhdcfkgefoce?hl=zh-CN)。名称为 **QuizMate · 智答伴侣**，发布者为 **Nexly 光年数智工作室**。
 
-![完整工作台 · 白色主题]({{ '/assets/store/01-workspace-light-1280x800.png' | relative_url }})
+<figure class="guide-figure"><a href="/quizmate-public-docs/assets/guide/v0.9.0/workspace.png"><img src="/quizmate-public-docs/assets/guide/v0.9.0/workspace.png" alt="QuizMate 0.9.0 工作台" width="1280" height="900"></a><figcaption>0.9.0 真实界面，使用本地演示数据。点击图片可查看原图。</figcaption></figure>
 
-在题目或课程网页打开学习侧栏，按“开始前设置”完成兑换卡密、选择使用方式、确认数据说明，即可授权并读取网页。日志位于操作区下方；完整设置和历史记录在独立工作台查看，支持亮暗主题与页内悬浮控制。
+## 常用文档
 
-## 模型连接
-
-- **官方服务（题库＋AI）**：使用官方服务卡，先按套餐配置匹配已审核题库，未可靠命中时调用授权模型。题库命中也消耗套餐调用次数。
-- **自配 API**：使用独立刷题时长授权，地址和模型默认留空，由用户选择服务商预设或自行填写；题目发送至用户保存的模型 API。
-- **本地 CLI**：使用独立刷题时长授权，通过本地桥调用已安装、已登录的命令行工具；是否联网由相应工具及其配置决定。
-
-“官方”表示 QuizMate 的服务模式名称，不表示与浏览器厂商、课程平台或模型厂商存在官方隶属关系。
-
-## 用户信息
-
-| 页面 | 内容 |
+| 你要做什么 | 查看这里 |
 | --- | --- |
-| [操作指南](GUIDE.md) | Edge 商店安装、固定图标、配置、授权与练习 |
-| [助手端管理手册](ADMIN_GUIDE.md) | 套餐、卡密、题库导入、匹配诊断和调用记录 |
-| [隐私政策](PRIVACY.md) | 数据类型、发送对象、存储、删除和联系方式 |
-| [权限说明](PERMISSIONS.md) | 浏览器权限用途及撤回方式 |
-| [使用条款](TERMS.md) | 使用边界、套餐、费用和售后说明 |
-| [帮助与支持](SUPPORT.md) | 一般反馈、授权问题与隐私请求 |
-| [安全报告](SECURITY.md) | 涉及敏感信息的私密报告入口 |
-| [更新记录](CHANGELOG.md) | 当前版本变化 |
-| [Edge 上架信息](EDGE_SUBMISSION.md) | 可填写的公开链接与提交前清单 |
+| 安装插件并完成第一次练习 | [Edge 安装到首次使用](EDGE_START.md) |
+| 查看卡密、设置、网课和故障处理 | [完整操作手册](GUIDE.md) |
+| 配置后台套餐、题库和调用记录 | [助手端管理手册](ADMIN_GUIDE.md) |
+| 了解数据如何处理 | [隐私政策](PRIVACY.md)、[权限说明](PERMISSIONS.md) |
+| 查询套餐与使用边界 | [使用条款](TERMS.md) |
+| 反馈使用问题 | [帮助与支持](SUPPORT.md) |
+| 查看版本变化 | [更新记录](CHANGELOG.md) |
 
-一般反馈：[GitHub Issues](https://github.com/SW1109/quizmate-public-docs/issues)。请勿公开卡密、API Key、会话令牌、账号资料或私有题目。
+“官方服务”是 QuizMate 的服务模式名称。官方卡按套餐使用题库与模型；时长卡用于用户自己的 API 或本地 CLI。最终提交由用户在网页完成。
