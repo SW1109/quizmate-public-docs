@@ -6,6 +6,8 @@ permalink: /
 
 第一次使用从 [Edge 安装到首次使用](EDGE_START.md) 开始；已有卡密时，可直接查看 [完整操作手册](GUIDE.md)。
 
+Chrome 用户可以下载 ZIP 并在开发者模式加载扩展程序。[Chrome 下载与安装](CHROME_START.md)
+
 当前图文手册按 **0.9.0** 编写，更新于 **2026 年 11 月 13 日**。同日核对时，Edge 商店仍为 **0.8.1**，教程中提供了按钮名称对照。
 
 [在 Microsoft Edge 商店查看 QuizMate](https://microsoftedge.microsoft.com/addons/detail/quizmate/nmkgnejillemkmplbkcklhdcfkgefoce?hl=zh-CN)。名称为 **QuizMate · 智答伴侣**，发布者为 **Nexly 光年数智工作室**。
